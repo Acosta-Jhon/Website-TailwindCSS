@@ -10,9 +10,9 @@ const Footer = () => {
                 </h1>
                 <p className="px-4 mt-4 text-center text-secondary">No dudes en enviarme un correo electrónico sobre cualquier tema. ¿Quieres un consejo?</p>
                 <p className="px-4 mt-1 text-center text-secondary">También puedes comunicarte conmigo en:
-                <a className="font-medium text-accent hover:text-accent hover:underline text-red-600" target="_blank" rel="noopener noreferrer"> GitHub </a>
-                <a className="font-medium text-accent hover:text-accent hover:underline text-red-600" target="_blank" rel="noopener noreferrer"> Twtter </a>
-                <a className="font-medium text-accent hover:text-accent hover:underline text-red-600" target="_blank" rel="noopener noreferrer"> Instagram </a>
+                <a className="font-medium text-accent hover:text-accent hover:underline text-red-600" target="_blank" rel="noopener noreferrer" href="/"> GitHub </a>
+                <a className="font-medium text-accent hover:text-accent hover:underline text-red-600" target="_blank" rel="noopener noreferrer" href="/"> Twtter </a>
+                <a className="font-medium text-accent hover:text-accent hover:underline text-red-600" target="_blank" rel="noopener noreferrer" href="/"> Instagram </a>
                 </p>
             </div>
             <div className="mx-auto pt-10 flex justify-center text-gray-50 ">
@@ -22,7 +22,7 @@ const Footer = () => {
                     </span>
                 </a>
             </div>
-            <div className="container flex-col justify-between md:space-y-8">
+            <div className="container flex-col justify-between md:space-y-8 mt-6">
                 {/* navbar */}
                 <nav className="hidden lg:flex flex-row items-center space-x-6 justify-center md:justify-end text-sm" >
                     <a aria-current="page" title="Home" href="/">
