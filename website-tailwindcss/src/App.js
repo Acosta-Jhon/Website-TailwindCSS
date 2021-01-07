@@ -6,7 +6,7 @@ import Tables from './components/Tables';
 
 const App = () => {
   return (
-    <div className="bg-gray-800 h-full text-gray-300">
+    <div className="bg-gray-800 h-full text-gray-300 font-medium">
       <Header/>
       <Carrousel/>
       <Tables/>
